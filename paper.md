@@ -133,4 +133,4 @@ What Hexagon does differently, we create a decentralized infrastructure around t
 
 ## 5 Summary
 
-Hexagon stays as an alternative to the first and second generation blockchains. It enables better user experience and confidence, better validators and end users' participation in consensus, better environment for app owners to raise money and build scalable and user-friendly apps, more confidence for people wanting to invest their money in a secure and predictable way.
+Hexagon stays as an alternative to the first and second generation blockchains. It enables better user experience and confidence, better validators and end users' participation in consensus, better environment for app owners to raise money and build scalable and user-friendly apps, more confidence for people wanting to invest their money in a secure and predictable way. First tier blockchains where one-coin chains, second tier are multi coin chains, we are taking an approach with token governance chain. This sounds more organic than an extensive growth approach taken by other new chains. 
