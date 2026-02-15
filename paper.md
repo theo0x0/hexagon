@@ -3,7 +3,7 @@
 
 Abstract. The first generation of cryptocurrencies gave us accessible finance in replacement of fiat currencies, which allowed cross border payments, cheap and easy payment processing, and freedom from seizure over decentralization. Yet not everything in the financial world became free and accessible. The second generation of blockchains with smart contracts tried to solve this issue by giving everyone an option to build their own decentralized programs, but it lacked scalability, a common set of rules and trust. Hexagon is the third generation of crypto breaking the barrier for businesses to raise money, users to save or invest and fairly receive goods, replacing traditional banking as a whole and classical regulators.
 
-## Introduction
+## 1. Introduction
 
 On the internet people use many websites, leaving personal information and assets, or using them to receive different kinds of information, buy things, or earn money to live their lives. But who do those sites belong to? Unfortunately, there are too many entities involved in control over it. First, owning IP addresses are not free and accessible for every man, they belong to both IANA, RIRs and ISPs. Before getting the IP, your PC resolves it from a domain name, rented from registrars who are also controlled by TLDs and IANA. Also,  almost everyone cannot have physical server hardware and rent it from hosting providers and cloud services.
 
@@ -13,9 +13,9 @@ Blockchains brought us to a new world where not a single entity or government ha
 
 This is only one function of money. Unfortunately, these days banks and private investors are responsible for loans to everyone who wants to get money for their business, and the relationship between public and companies is still controlled by the government, limiting them by bureaucracy, slow processing and therefore more restrictions. Blockchains too do not provide much trust and, like TLS and IP, only handle delivery and storage of data from one point to another, but they do not handle good relationships between entities on them. Traditional donations/fundraising are much more suitable for creators other than for running businesses, providing less transparency, flexibility, and control. That’s what Hexagon will be solving.
 
-## Key functions  of  Hexagon
+## 2. Key functions  of  Hexagon
 
-### Name system
+### 2.1 Name system
 
 Among all the internet layers DNS is perfect for our case, because IPs can be easily changed by moving domain’s resource records and lay too deep in the roots of the Internet functionality to manipulate, on the other hand data, information and computation is too heavy to move or copy, resulting to many scalability and decentralization problems today in other blockchain technologies.
 
@@ -25,7 +25,7 @@ All sides are profiting from it. By selling the ownership app, builders can rais
 
 Combining this with free and open-source software leads to great opportunities for developers, who today get no or minimum reward for their job, and to hex domain partial owners who will always have the required code to power the apps.
 
-### Transaction  details
+### 2.2 Transaction  details
 
 Today transactions on the blockchains have only technical use, signifying over a funds transfer or a code call and are not used anywhere else. Hexagon’s goal is to put more useful meaning into transactions, recording the real name of the destination and the purpose into attached data. This idea has certain advantages and disadvantages.
 
@@ -35,9 +35,9 @@ Second, this data is provided by users that want to interact with an app or bloc
 
 On the other hand, it takes another piece from user’s anonymity, compared to other (pseudo) anonymous blockchains. Hexagon is going to  operate the same way without any verification of wallets. This is made to be a fair alternative with a purpose to bring more users from traditional finance, where all the personal data is given, and it lacks consumer protection because of bureaucracy. This is also attractive to traditional investors that can see real data that is impossible to modify or falsify and easily accessible without involving many institutions and long waiting time.
 
-## Blockchain  design
+## 3. Blockchain  design
 
-### Acknowledgments
+### 3.1 Acknowledgments
 
 While Hexagon can be implemented on general purpose blockchains there are some limitations as following:
 
@@ -55,7 +55,7 @@ While Hexagon can be implemented on general purpose blockchains there are some l
 
 Although using existing chains as an advantage provides access to liquidity,  from scratch we  must  build  wallets, local resolvers, governance, data stores and “scanners”.  So, a separate chain would be a better solution
 
-### Smart contracts
+### 3.2 Smart contracts
 
 This part is also related to Acknowledgments.
 
@@ -65,7 +65,7 @@ Unfortunately, it didn’t solve trust issues. In web2 you trust only the server
 
 Hexagon  tries  to  solve  this  issue  by  adding a layer  of  middleman  that  has  control  over  the  service  you  want to  interact  with, i.e.  hex  domains. This  also  solved  the  more  general  problem  of  free  software, where  users  can’t  review  over  the  whole  code  even  though  they  can. Those  middlemen  controlling  hex  domains  have  put  their  money  in  and  had  power  over  reviewing  the  underlying  service  in  order  of  its  good  functionality  and  growth  to  receive  profit  in  the  future.
 
-### Consensus
+### 3.3 Consensus
 
 What we have seen in the first blockchains like bitcoin is that you can trust only the protocol, because it does not set the rules over data which will be produced by the network (input and output transitions) and limits the ability of participants to change those data so that you can only make new transitions.
 
@@ -83,7 +83,7 @@ Compared to other blockchains, they have  governance either delegated to some ot
 
 Hexagon takes the second approach with on chain voting but takes it to the lower level where your vote decides on what client version you’re staying. Where after voting ends you decide on what version you stay organizing a separate chain with who made the same decision, i.e. auto fork. This would be impossible or very hard to make smart contracts or rollups if we didn’t have a separate chain.
 
-### Tokenomics
+### 3.4 Tokenomics
 
 There are two types of tokenomics: limited supply and unlimited supply, though chains with limited supply sometimes have only 50% of all coins issued when another half is issued later at an unknown pace. While bitcoin’s inflation is only 0,8% and decreases by half every halving until it stops making new btc.
 
@@ -102,7 +102,7 @@ Summarizing hex validators would be responsible for three forms of consensus:
 3.  Client upgrade voting
     
 
-### Accessibility
+### 3.5 Accessibility
 
 This chapter describes how users interact with the Hexagon blockchain.
 
@@ -114,6 +114,6 @@ The second scary thing for users is to constantly sign smart contract calls from
 
 The third scary thing lying after the first and sometimes the second is the irreversibility of transactions. Today blockchains guarantee only the fact funds were sent or the code called, sometimes that’s even more scary than interacting with classical websites like Amazon, because behind classical websites are governments, shareholders, then executives and at the end customer support, that are far from perfect but together provide more protection to the users than average blockchain apps. On existing blockchains validators are only responsible for running nodes to keep the blockchain live and to stake coins to keep it secure, and on the other hand blockchain developers whose job is to grow or keep the same vaule of the coin so that validators wouldn't live and chain stopped working, but they are not restriced on other things they can do. Hexagon will provide clarity by identifying the purpose of each transaction, then adding hex domains to create inner consensus inside apps that would see user transactions flow without the need to control the running code directly, and they can make important decisions in case users are not satisfied about how the app works. And at the end validators of hexagon that have freedom and resources over decision making in various ways.
 
-## Summary
+## 4 Summary
 
 Hexagon stays as an alternative to the first and second generation blockchains. It enables better user experience and confidence, better validators and end users' participation in consensus, better environment for app owners to raise money and build scalable and user-friendly apps, more confidence for people wanting to invest their money in a secure and predictable way.
