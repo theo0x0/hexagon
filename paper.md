@@ -130,6 +130,17 @@ Today all the apps are being downloaded from App Store or Google Play. Both of t
 
 What Hexagon does differently, we create a decentralized infrastructure around this market, including financial infrastructure. This marked can include a direct Hexagon integration where control of those apps is distributed like hex domains. This would attract more developers because if an app has decentralized control over it, more people are willing to invest, and users who download such apps are more likely to trust the source. The market itself is governed in a decentralized way backed by Hexagon. This would mean a clear set of rules, a more friendly interface, and transparency. 
 
+### 4.3 Refunds
+
+You buy an API to get a weather forecast. This API is being sold to you by a number of requests or days. If this product is being sold to you on Hexagon, therefore the gateways for this API will be a hex domain resolved on the network. Also, if you buy it on the hexagon chain, your transaction will have your API user id, time of transaction, details about what API you bought and the amount of access you paid for (days, number of requests).  
+
+After that you can interact with seller servers directly, without submitting anything on the chain. You can track how much recourses are left by exchanging digital signatures with the seller; you will mutually sign a message where it’s specified that you used N requests. Provider will wait until you sign a message with less requests left, and you will have his signed message where he guarantees that at least N requests are unused. If the seller does not receive your signature where you agree of less requests, he will stop providing API access to you. 
+
+Hexagon will have an automatic refund functionality. Where the initial number of bought recourses is known with your payment transaction. Then you can submit a mutually signed message by the seller and you, where it says you used at least N, and get a refund for the rest. If the users submit a message for more money than really left, the seller replies with the message where you signed a less amount, and your refund will be blocked. 
+
+This automated process is set by Hexagon globally and applied to any seller. This is better compared to other blockchains where the seller itself sets the rules for smart contract with your money, and these rules are not applied globally. For other chains, it’s almost impossible to implement it on a scale.  
+
+You can get a refund in a traditional way. First you go to the seller itself, but his rules might not have a refund policy, or you will need to mail them a letter describing your situation and your bank account details, then wait for more than a week. If it does not work, the only option is felt to go to court with them, which is not accessible for almost all users. Your bank does not have the authority to transfer funds without the account owner's permit or a court order. Especially if you live in another country and buy your API access on the internet, you cannot access any government agencies where that business is registered, and it’s not suitable if your purchase wasn’t big enough.  
 
 ## 5 Summary
 
