@@ -83,6 +83,8 @@ Alternative consensus mechanisms like Ethereum need you to hold the chain's nati
 
 Another disadvantage is that the platform has control over new and existing validators, by controlling the coin value and flow, transaction mechanisms and policies over which they can only be withdrawn from staking. 
 
+Also, what hexagon does differently is limiting the number of (full) nodes, therefore allowing users to verify the consensus by using software running locally without calling one trusted party. This solves the scalability issue so that the network would only have nodes that can afford more powerful hardware. Each validator knows who the current members of the consensus are and can provide clear data about it to the users. It also helps to solve communication problem where a lot of coins wasted because partisipants doesn't know how much they should pay for computation. 
+
 #### 3.3.3 Governance
 
 Compared to other blockchains, they have  governance either delegated to some other entity where miners/stakers have no decision-making  power, or it is decided by voting. In the first case (even if you have multiple clients) when you have a network split due to a disagreement, both sides get damaged, but the most popular side survives and takes almost all what this chain achieved from the beginning. For example, you can look at Ethereum vs Ethereum Classic or Bitcoin vs Litecoin. The opposition side is always very much smaller and not replacing the original chain with popularity or trust. Even when a network splits in two,  it’s  very hard to organize a dozen other different clients in the second alternative network to keep operating and have a sustainable user base.
@@ -91,13 +93,15 @@ Other blockchains governance voting is decided on their number of tokens, but wh
 
 Cryptocurrencies like bitcoin have no governance at all, which means they have no hard forks, and any version of the software can access the network.  This resulted in them keeping the same block size which left the protocol data structure untouchable. That’s why they have changed Satoshi's bitcoin view of it from a payment system to digital gold. And instead tried to develop L2 solutions like Lightning network that can be used for payments.  
 
+Hexagon takes the second approach with on chain voting but takes it to the lower level where your vote decides on what client version you’re staying. Where after voting ends you decide on what version you stay organizing a separate chain with who made the same decision, i.e. auto fork. This would be impossible or very hard to make smart contracts or rollups if we didn’t have a separate chain.
+
 ### 3.4 Tokenomics
 
 There are two types of tokenomics: limited supply and unlimited supply, though chains with limited supply sometimes have only 50% of all coins issued when another half is issued later at an unknown pace. While bitcoin’s inflation is only 0,8% and decreases by half every halving until it stops making new btc.
 
-Hexagon will be using two economic principles. First, there’s a problem when a validator locks his coins; he can no longer spend them. This means that their value is lost to provide network security while decreasing usability (1.16Th/s asic = 0,08% vs 3eth = 0,0001% of the network, i.e.  you need to spend more money for the same security). We add a mechanism of spending locked coins of validators by voting on proposals. This means validators are not wasting their economic activity and using it on network development, instead of spending it on themself. This also solves the problem of funding sources for the chain's purposes. But their coins will not be spent directly. When a validator joins, his balance would increase the vault balance and decrease it when he leaves. This would not affect validators' savings by keeping them neutral and decreasing conflict of interest.
+Hexagon will be using two economic principles. First, there’s a problem when a validator locks his coins; he can no longer spend them. This means that their value is lost to provide network security while decreasing usability. We add a mechanism of spending locked coins of validators by voting on proposals. This means validators are not wasting their economic activity and using it on network development, instead of spending it on themself. This also solves the problem of funding sources for the chain's purposes. But their coins will not be spent directly. When a validator joins, his balance would increase the vault balance and decrease it when he leaves. This would not affect validators' savings by keeping them neutral and decreasing conflict of interest.
 
-Here comes the second economic principle. When validators use money from the vault, it increases total supply. But this would not affect anyone who’s  participating in projects in a form of hex domains, because the value of their shares would only increase, making it easier to grow their projects and get more money for development.
+Here comes the second economic principle. When validators use money from the vault, it increases total supply. But this would not affect anyone who’s participating in projects in a form of hex domains, because the value of their shares would only increase, making it easier to grow their projects and get more money for development.
 
 Summarizing hex validators would be responsible for three forms of consensus:
 
