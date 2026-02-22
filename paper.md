@@ -83,7 +83,7 @@ Hexagon will be using a PoS mechanism to have economic functionality that will b
 
 Also, what hexagon does differently is limiting the number of (full) nodes, therefore allowing users to verify the consensus by using software running locally without calling one trusted party. This solves the scalability issue so that the network would only have nodes that can afford more powerful hardware. Each validator knows who the current members of the consensus are and can provide clear data about it to the users.
 
-##### 3.3.3 Governance
+#### 3.3.3 Governance
 
 Compared to other blockchains, they have  governance either delegated to some other entity where miners/stakers have no decision-making  power, or it is decided by voting. In the first case (even if you have multiple clients) when you have a network split due to a disagreement, both sides get damaged, but the most popular side survives and takes almost all what this chain achieved from the beginning. For example, you can look at Ethereum vs Ethereum Classic or Bitcoin vs Litecoin. The opposition side is always very much smaller and not replacing the original chain with popularity or trust. Even when a network splits in two,  it’s  very hard to organize a dozen other different clients in the second alternative network to keep operating and have a sustainable user base.
 
