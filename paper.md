@@ -69,6 +69,8 @@ Hexagon  tries  to  solve  this  issue  by  adding a layer  of  middleman  that 
 
 What we have seen in the first blockchains like bitcoin is that you can trust only the protocol, because it does not set the rules over data which will be produced by the network (input and output transitions) and limits the ability of participants to change those data so that you can only make new transitions. Consensus algorithms solve the problem of how you pay for the resources (like computation and storage).  
 
+It’s hard to figure out how much block producers should actually earn and how much they should be paid for resources. On blockchains where block producers paid only by fees, you cannot have many transactions per second because fee revenue stops growing when you have many transactions. For example, when you add first 10 transactions you have $5 fees, but when you have 1000 transactions and add another 10 to them, you get much less fees. Computation increases O(n), but revenue is ~O(n^1/2). Therefore, on early bitcoin and PoS chains block producers are being paid extra (bailout), usually by minting new coins. Unfortunately, it’s very roughly calculated and highly exceeds how much is actually spent on computation.  
+
 #### 3.3.1 Proof of Work
 
 This first consensus protocol requires participants to add proof of work to interact with the network. When the network consists only of 100 users, everyone can participate in the consensus, where PoW plays the role of Ethernet in computer commination. Each participant has an equal chance of this block being added, and it’s chosen randomly over all participants.
@@ -77,17 +79,15 @@ This works only in the perfect world where resources are distributed equally and
 
 #### 3.3.2 Proof of Stake
 
-Alternative consensus like Ethereum however need you to hold chain's native coin and make a translation that  submits your resources. That means the platform has control over new and existing validators, by controlling the coin value and flow, transaction mechanisms and policies over which they can only be withdrawn from staking. At the same time ASICs do not have constant price as well and are more volatile than GPUs, but while eth earns you 4% APY which would require ~17 years to have rewards equal to your stake amount, ASICs need ~2 years to cover the costs of buying them. And you don’t need anyone’s approval to buy or sell your ASICs.
+Alternative consensus mechanisms like Ethereum need you to hold the chain's native coin and make a translation that submits your resources to run a validator. This is an example of a consensus where you should spend much more resources than you would have to pay for validator computation hardware itself. This means that your rewards are much less compared to what you spent (staked / frozen coins). Also, the network needs to pay much more for security, because the security protocol needs a lot of capital. This is approached by staking rewards in percents of your total stake. Because otherwise people with the money will move them from validator staking to other places with more attractable income rates. 
 
-Hexagon will be using a PoS mechanism to have economic functionality that will be described later. Each node on Hexagon has an auto upgrade mechanism (e.g. automated git), but what to pull is decided over coin voting. This removes the need for node operators to trust any third party and adds the second source of value to the coin.
-
-Also, what hexagon does differently is limiting the number of (full) nodes, therefore allowing users to verify the consensus by using software running locally without calling one trusted party. This solves the scalability issue so that the network would only have nodes that can afford more powerful hardware. Each validator knows who the current members of the consensus are and can provide clear data about it to the users.
+Another disadvantage is that the platform has control over new and existing validators, by controlling the coin value and flow, transaction mechanisms and policies over which they can only be withdrawn from staking. 
 
 #### 3.3.3 Governance
 
 Compared to other blockchains, they have  governance either delegated to some other entity where miners/stakers have no decision-making  power, or it is decided by voting. In the first case (even if you have multiple clients) when you have a network split due to a disagreement, both sides get damaged, but the most popular side survives and takes almost all what this chain achieved from the beginning. For example, you can look at Ethereum vs Ethereum Classic or Bitcoin vs Litecoin. The opposition side is always very much smaller and not replacing the original chain with popularity or trust. Even when a network splits in two,  it’s  very hard to organize a dozen other different clients in the second alternative network to keep operating and have a sustainable user base.
 
-Hexagon takes the second approach with on chain voting but takes it to the lower level where your vote decides on what client version you’re staying. Where after voting ends you decide on what version you stay organizing a separate chain with who made the same decision, i.e. auto fork. This would be impossible or very hard to make smart contracts or rollups if we didn’t have a separate chain.
+Other blockchains governance voting is decided on their number of tokens, but when tokenomics is inflationary, they need to be stored at a place where you would have yield on them, usually it’s validator’s staking. 
 
 ### 3.4 Tokenomics
 
