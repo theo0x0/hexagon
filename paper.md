@@ -75,7 +75,7 @@ This first consensus protocol requires participants to add proof of work to inte
 
 This works only in the perfect world where resources are distributed equally and cannot be gathered in one place. Only  people with a lot of resources or an ability to aggregate them run such a blockchain. They play the role of middleman where your transactions can only be sent through them. But even in this case it still remains the way everyone can participate, without identifying themself. Over the competition every miner that adds new blocks still acts fair because otherwise it will not be accepted or replaced by other miners.
 
-#### 3.3.1 Proof of Stake
+#### 3.3.2 Proof of Stake
 
 Alternative consensus like Ethereum however need you to hold chain's native coin and make a translation that  submits your resources. That means the platform has control over new and existing validators, by controlling the coin value and flow, transaction mechanisms and policies over which they can only be withdrawn from staking. At the same time ASICs do not have constant price as well and are more volatile than GPUs, but while eth earns you 4% APY which would require ~17 years to have rewards equal to your stake amount, ASICs need ~2 years to cover the costs of buying them. And you don’t need anyone’s approval to buy or sell your ASICs.
 
