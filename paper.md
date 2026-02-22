@@ -89,6 +89,8 @@ Compared to other blockchains, they have  governance either delegated to some ot
 
 Other blockchains governance voting is decided on their number of tokens, but when tokenomics is inflationary, they need to be stored at a place where you would have yield on them, usually it’s validator’s staking. 
 
+Cryptocurrencies like bitcoin have no governance at all, which means they have no hard forks, and any version of the software can access the network.  This resulted in them keeping the same block size which left the protocol data structure untouchable. That’s why they have changed Satoshi's bitcoin view of it from a payment system to digital gold. And instead tried to develop L2 solutions like Lightning network that can be used for payments.  
+
 ### 3.4 Tokenomics
 
 There are two types of tokenomics: limited supply and unlimited supply, though chains with limited supply sometimes have only 50% of all coins issued when another half is issued later at an unknown pace. While bitcoin’s inflation is only 0,8% and decreases by half every halving until it stops making new btc.
