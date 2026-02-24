@@ -170,6 +170,18 @@ This automated process is set by Hexagon globally and applied to any seller. Thi
 
 You can get a refund in a traditional way. First you go to the seller itself, but his rules might not have a refund policy, or you will need to mail them a letter describing your situation and your bank account details, then wait for more than a week. If it does not work, the only option is felt to go to court with them, which is not accessible for almost all users. Your bank does not have the authority to transfer funds without the account owner's permit or a court order. Especially if you live in another country and buy your API access on the internet, you cannot access any government agencies where that business is registered, and it’s not suitable if your purchase wasn’t big enough.  
 
-## 5 Summary
+## 5 Infrastructure  
+
+Not complete list of hexagon software and parties
+
+- Wallets with the mandatory support of domains and trading. It should contain detailed transaction history and current cancellable subscriptions. 
+- A platform where builders and companies can launch hex domains and see all available data. Also, the owners’ control panel. 
+- Local clients for domain resolution and RPCs 
+- Third party hex domain resolvers and RPC providers 
+- SDK for builders to accept payments and required info to be put into transactions. 
+- Node clients and proposals panel
+- Entities to giveaway wallet addresses and bridge with other chains 
+
+## 6 Summary
 
 Hexagon stays as an alternative to the first and second generation blockchains. It enables better user experience and confidence, better validators and end users' participation in consensus, better environment for app owners to raise money and build scalable and user-friendly apps, more confidence for people wanting to invest their money in a secure and predictable way. First tier blockchains where one-coin chains, second tier are multi coin chains, we are taking an approach with token governance chain. This sounds more organic than an extensive growth approach taken by other new chains. Our goal is to create a trustworthy system in an industry which stands for “you should trust no one” and where the trust is often obscured.  
