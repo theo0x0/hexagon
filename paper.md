@@ -179,8 +179,8 @@ Not complete list of hexagon software and parties
 - Local clients for domain resolution and RPCs 
 - Third party hex domain resolvers and RPC providers 
 - SDK for builders to accept payments and required info to be put into transactions. 
-- Node clients and proposals panel
-- Entities to giveaway wallet addresses and bridge with other chains 
+- Node clients and proposals panel, along with oracles 
+- Entities to giveaway wallet addresses and bridge with other chains
 
 ## 6 Summary
 
