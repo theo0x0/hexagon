@@ -3,7 +3,7 @@
 
 **Abstract.** The first generation of cryptocurrencies gave us accessible finance in replacement of fiat currencies, which allowed cross border payments, cheap and easy payment processing, and freedom from seizure over decentralization. Yet not everything in the financial world became free and accessible. The second generation of blockchains with smart contracts tried to solve this issue by giving everyone an option to build their own decentralized programs, but it lacked scalability, a common set of rules and trust. Hexagon is the third generation of crypto breaking the barrier for businesses to raise money, users to save or invest and fairly receive goods, replacing traditional banking as a whole and classical regulators.
 
-## The Beginning 
+## 1. The Beginning 
 
 ### 1.1 The dawn of the Internet 
 
