@@ -3,11 +3,21 @@
 
 **Abstract.** The first generation of cryptocurrencies gave us accessible finance in replacement of fiat currencies, which allowed cross border payments, cheap and easy payment processing, and freedom from seizure over decentralization. Yet not everything in the financial world became free and accessible. The second generation of blockchains with smart contracts tried to solve this issue by giving everyone an option to build their own decentralized programs, but it lacked scalability, a common set of rules and trust. Hexagon is the third generation of crypto breaking the barrier for businesses to raise money, users to save or invest and fairly receive goods, replacing traditional banking as a whole and classical regulators.
 
-## 1. Introduction
+## The Beginning 
 
-On the internet people use many websites, leaving personal information and assets, or using them to receive different kinds of information, buy things, or earn money to live their lives. But who do those sites belong to? Unfortunately, there are too many entities involved in control over it. First, owning IP addresses are not free and accessible for every man, they belong to both IANA, RIRs and ISPs. Before getting the IP, your PC resolves it from a domain name, rented from registrars who are also controlled by TLDs and IANA. Also,  almost everyone cannot have physical server hardware and rent it from hosting providers and cloud services.
+### 1.1 The dawn of the Internet 
 
-All of those entities have control over site owners and users.  Also, humans themselves can be subject to their location’s country laws and laws of where his resources are located and where the company registered, all at the same time. Not in all cases law enforcement acts as it should, breaking the laws written for them or having too loose regulation due to lobbying or not working institutions.
+The Internet is decentralized in a way that everyone can exchange information freely, there’s no certain rules of what data should be present. The only thing that Internet hardware controls is how to reach certain endpoints. Which means that the internet has no fundamental value, but rather a value of everyone who is connected. This increased global access to knowledge, entertainment, and communication. The Internet includes both traditional companies like post, shopping and ticket sales, and new companies like search engines, forums and e-mails. You can see that the new Internet companies only provide digital services processing data.  
+
+People now can have more access to information about abstract subjects like science and politics, comparing different clothes and airlines, sharing or watching personally made content like vlogs, blogs or porn. Did we get rid of large corporations that control the market inside such a decentralized and globally accessible system? Unfortunately, the answer is no. Even new Internet companies have become dominant giants. At the time where everyone can launch their own website, we have examples like Amazon or Google, giving smaller sites no chance. I couldn’t think of any industry on the Internet including AI where we would have a market consisting of only small entities.  
+
+Of course, the internet wouldn’t be possible without certain breakthroughs like copper and optic cables, powerful hardware, browsing software and routing, and data encoding protocols. Even though the internet is at scale decartelized, some centralization is needed like common protocols, address distributing and domain names of registration. 
+
+There is no clarity of who is a subject for regulation on the internet. Humans themselves can be subject to their location’s country laws. Web servers can be located in another country. The company which owns these servers is registered somewhere else. And the domain registrar can be in a different location too. 
+
+The Internet does not restrict anonymity; there are companies where you can buy or use a server or domain without revealing your identity. This gives us an opportunity to bypass tracking from ISPs by using tools such as the Tor Network. 
+
+### 1.2 The dawn of blockchain  
 
 Blockchains brought us to a new world where not a single entity or government has control over your money, and it is not physically stored only in one place. Keys to your wallets only exist digitally and therefore everyone can afford high security over them. To spend cryptocurrency, you only need an internet connection and the key itself, regardless of your location and identity.
 
