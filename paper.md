@@ -23,7 +23,7 @@ Blockchains brought us the same decentralization as the internet did. Early vers
 
 A big breakthrough was made when a programmable blockchain was introduced. There you can write rules on how you can interact with the state. It made it possible for other entities to participate by introducing their possible ways of interacting with users and each other, creating a network.  
 
-Like TLS on blockchain you need to have your signling keys to interract with it. Now users indentify themseles to the blockchain, comapred to when web sites needed to have a certificate to bacome legin and have encrypted communication.  
+Like TLS on blockchain, you need to have your signing keys to interact with it. Now users identify themselves to the blockchain, compared to when web sites need to have a certificate to become legit and have encrypted communication.  
 
 Blockchain made access to finance and finance possible for everyone. Like when browsing the internet, you see companies providing their services. On blockchain, you have the same experience with payments and assets as stocks. You have the same only blockchains companies like DEXs and loans. If we keep comparing further “decentralization” is as much on blockchain as it is on the internet, it is a freedom to connect with anyone. So blockchains will have a few bigger companies dominating it like it happened to the internet, now it’s happening with stablecoins and other’s which provide real world assets or accepting payments among different chains.  
 
