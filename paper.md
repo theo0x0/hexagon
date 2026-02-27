@@ -37,6 +37,8 @@ As in the example above, the internet is designed to connect everyone with every
 
 Now these properties of blockchain as a transparent, central and data storing protocol which processes transfers over different types of property and value are left unused. Its transparency is used by code to verify if a transfer occurred. Transaction history is just left behind for new nodes to download and synchronize. Blockchains doesn’t play a central role, letting anyone deploy anything and interact. Any value transfers are immutable or require a deployed code for each type of transfer and asset to change allocation. 
 
+Hexagon will use all of it to build a friendly platform, where transparent transactions would help investors to decide how good businesses are performing and where they got previously money from, details in transaction history would make possible to track individual purchases for statistics and refunds, organizations and coin issuers would be on one market where they would compete against each other with predefined metrics, everyone would know what really stands behind a token without going through advertising material and collecting statistics by pieces from many websites, where developers would have their customer service handled for them and their performance metrics would be clear so he could easily raise money from investors or users. Were decentralized governance would have real usage saving users against money fraud, so they would be safe to use any (and by any means literally any) company's service.  
+
 ## 2. Key functions  of  Hexagon
 
 ### 2.1 Name system
