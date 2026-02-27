@@ -63,7 +63,7 @@ On the other hand, it takes another piece from user’s anonymity, compared to o
 
 ## 3. Blockchain  design
 
-### 3.1 Acknowledgments
+### 3.1 Why L1?
 
 While Hexagon can be implemented on general purpose blockchains there are some limitations as following:
 
