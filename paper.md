@@ -27,15 +27,31 @@ Like TLS on blockchain, you need to have your signing keys to interact with it. 
 
 Blockchain made access to finance and finance possible for everyone. Like when browsing the internet, you see companies providing their services. On blockchain, you have the same experience with payments and assets as stocks. You have the same only blockchains companies like DEXs and loans. If we keep comparing further “decentralization” is as much on blockchain as it is on the internet, it is a freedom to connect with anyone. So blockchains will have a few bigger companies dominating it like it happened to the internet, now it’s happening with stablecoins and other’s which provide real world assets or accepting payments among different chains.  
 
-### 1.3 The dawn of Hexagon 
+
+
+### 1.3  Internet and blockchains 
 
 Blockchain and the internet are decentralized but not trustless. Decentralized means you don’t need any specific third party to interact with it; you can access your email or crypto wallet from any part of the world. It’s not trustless because it only connects you with entities that provide service to you, on the internet you have one connected computer to run company's servers, on blockchain you have code deployed right on the network.  
 
-The differences are that the internet does not process your data only headers for that data; the rest is usually encrypted. Blockchains need to manipulate data and change their state; they look at who you call, what function you call and perform actions smart contract code says to do. On the internet, generally your packets do not change. The second difference is that the internet doesn’t need to come to a consensus, each entity can act individually, any ISP can connect any users they want, a domain registrar can sell any free domain names even to anonyms customers. When you want to add or change something on blockchains, it updates global data accessible to everyone, so they need to agree if they process it right and in what order. The third difference that on blockchain you can interact directly with other users to send coins or wallets that are used temporary to exchanges, the internet works in a way you need a server set up for accepting user connections, it should be able to handle high loads, be available all the time and provide some useful service that many users would like to use. The fourth difference is that the internet doesn’t store or track any data sent through the network. Blockchain, on the other hand, stores every interaction. 
+There are things that make blockchains different from the internet: 
+
+1. The internet does not process your data only headers for that data; the rest is usually encrypted. Blockchains need to manipulate data and change their state; they look at who you call, what function you call and perform actions smart contract code says to do. On the internet, generally your packets do not change.  
+
+2. The internet doesn’t need to come to a consensus, each entity can act individually, any ISP can connect any users they want, a domain registrar can sell any free domain names even to anonyms customers. When you want to add or change something on blockchains, it updates global data accessible to everyone, so they need to agree if they process it right and in what order.  
+
+3. On blockchain you can interact directly with other users to send coins or wallets that are used temporary to exchanges, the internet works in a way you need a server set up for accepting user connections, it should be able to handle high loads, be available all the time and provide some useful service that many users would like to use.  
+
+4. The internet doesn’t store or track any data sent through the network. Blockchain, on the other hand, stores every interaction.  
+
+5. Applications on the Internet rarely interact with each other, X does not interact with GitHub, Amazon doesn’t interact with Gmail, YouTube doesn’t interact with Twitch, and so on. An app calls another app only to download some data on behalf of users, verify identity, use some third-party service like advertising or programming library. On blockchains all the apps are connected, if your app is a stablecoin it can be used for any purchase, if you issue an NFT, you can trade it between all the other assets.  
+
+6. Updates and governance on the internet are not enforced by anyone; usually new technologies are being introduced in theory, then the most promising on them are being implemented in software; then people decide if they would like up update or stay on the older version; once protocol is accepted globally, it cannot be removed. Blockchains are much more solid and not flexible, because they are so deeply involved in functionality. Any difference in processing data can result in major disruptions.  
 
 As in the example above, the internet is designed to connect everyone with everyone and send absolutely any data, but now its primary use is to deliver a user the frontend of an app and then send user input back to the company, so no check in between. And on blockchains, the state is transferred directly between users or smart contracts.  
 
 Now these properties of blockchain as a transparent, central and data storing protocol which processes transfers over different types of property and value are left unused. Its transparency is used by code to verify if a transfer occurred. Transaction history is just left behind for new nodes to download and synchronize. Blockchains doesn’t play a central role, letting anyone deploy anything and interact. Any value transfers are immutable or require a deployed code for each type of transfer and asset to change allocation. 
+
+### 1.4 The dawn of Hexagon 
 
 Hexagon will use all of it to build a friendly platform, where transparent transactions would help investors to decide how good businesses are performing and where they got previously money from, details in transaction history would make possible to track individual purchases for statistics and refunds, organizations and coin issuers would be on one market where they would compete against each other with predefined metrics, everyone would know what really stands behind a token without going through advertising material and collecting statistics by pieces from many websites, where developers would have their customer service handled for them and their performance metrics would be clear so he could easily raise money from investors or users. Were decentralized governance would have real usage saving users against money fraud, so they would be safe to use any (and by any means literally any) company's service.  
 
